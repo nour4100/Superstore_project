@@ -1,0 +1,23 @@
+CREATE TABLE bronze.store (
+    ID INT PRIMARY KEY,
+    [Order ID] VARCHAR(20),
+    [Order Date] VARCHAR(20),
+    [Ship Date] VARCHAR(20),
+    [Ship Mode] VARCHAR(20),
+    [Customer ID] VARCHAR(20),
+    [Customer Name] VARCHAR(100),
+    Segment VARCHAR(50),
+    Country VARCHAR(50),
+    City VARCHAR(100),
+    State VARCHAR(100),
+    [Postal Code] VARCHAR(20),
+    Region VARCHAR(50),
+    [Product ID] VARCHAR(20),
+    Category VARCHAR(50),
+    [Sub-Category] VARCHAR(50),
+    [Product Name] VARCHAR(255),
+    Sales DECIMAL(10,2),
+    Quantity INT,
+    Discount DECIMAL(4,2),
+    Profit DECIMAL(10,2)
+);
